@@ -98,3 +98,29 @@ void LerArq(Grafo *g) {
 
     fclose(arq);
 }
+
+void GerarArq(Grafo *g) {
+    if(g == NULL) return;
+
+    int numArestas = 0;
+
+    for (int i = 0; i < g->numVert; i++) {
+        for(int j = 0; j < g->numVert; j++) {
+            if(g->matriz[i][j] == 1) {
+                numArestas++;
+            }
+        }
+    }
+
+    /**
+     * 0 1 0 0 1
+     * 1 0 0 0 1
+     * 0 0 0 0 1
+     * 0 0 0 0 1
+     * 1 1 1 1 0
+     */
+
+    numArestas /= 2;
+
+    printf("Número de Arestas: %d", numArestas);
+}
