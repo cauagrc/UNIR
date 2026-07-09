@@ -1,0 +1,93 @@
+---------- MATRIZ DE ADJACENCIA ----------
+
+Estatisticas da matriz:
+Memoria utilizada: 381.55 MB
+Numero de vertices: 10000
+Numero de arestas: 109923
+Grau minimo: 8
+Grau maximo: 43
+Grau medio: 21.98
+Grau mediana: 22.00
+Tempo medio de execucao em 100 BFS: 166.01 ms
+Tempo medio de execucao em 100 DFS: 216.80 ms
+
+BFS inicio: 1
+Pai(10): 2042
+Pai(20): 8382
+Pai(30): 2394
+
+BFS inicio: 2
+Pai(10): 8935
+Pai(20): 9071
+Pai(30): 3555
+
+BFS inicio: 3
+Pai(10): 7685
+Pai(20): 9543
+Pai(30): 5783
+
+DFS inicio: 1
+Pai(10): 709
+Pai(20): 666
+Pai(30): 86
+
+DFS inicio: 2
+Pai(10): 709
+Pai(20): 666
+Pai(30): 86
+
+DFS inicio: 3
+Pai(10): 709
+Pai(20): 666
+Pai(30): 86
+
+Distancia entre pares (10,20): 3
+Distancia entre pares (10,30): 3
+Distancia entre pares (20,30): 4
+
+---------- LISTA DE ADJACENCIA ----------
+
+Estatisticas da lista:
+Memoria utilizada: 3.43 MB
+Numero de vertices: 10000
+Numero de arestas: 109923
+Grau minimo: 8
+Grau maximo: 43
+Grau medio: 21.98
+Grau mediana: 22.00
+Tempo medio de execucao em 100 BFS: 13.26 ms
+Tempo medio de execucao em 100 DFS: 13.64 ms
+
+BFS inicio: 1
+Pai(10): 2042
+Pai(20): 9543
+Pai(30): 7311
+
+BFS inicio: 2
+Pai(10): 8935
+Pai(20): 2193
+Pai(30): 5783
+
+BFS inicio: 3
+Pai(10): 7685
+Pai(20): 4656
+Pai(30): 5783
+
+DFS inicio: 1
+Pai(10): 7663
+Pai(20): 9071
+Pai(30): 6936
+
+DFS inicio: 2
+Pai(10): 7663
+Pai(20): 3649
+Pai(30): 5317
+
+DFS inicio: 3
+Pai(10): 7663
+Pai(20): 2455
+Pai(30): 6936
+
+Distancia entre pares (10,20): 3
+Distancia entre pares (10,30): 3
+Distancia entre pares (20,30): 4
